@@ -1,0 +1,591 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body {
+  background: white;
+}
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 2rem;
+  background: #f5f7fa;
+
+  align-items: center;
+}
+a {
+  text-decoration: none;
+  margin-left: 30px;
+
+  color: #18191f;
+}
+#log {
+  color: #4caf4f;
+}
+#signup {
+  background-color: #52de97;
+  color: white;
+  font-size: 14px;
+  padding: 12px 20px;
+  border: transparent;
+  border-radius: 7px;
+  margin-left: 17px;
+}
+#icon-menu {
+  display: none;
+}
+.Illustration {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-top: 2rem;
+  padding-bottom: 3rem;
+  background: #f5f7fa;
+}
+#illus-text {
+  width: 69%;
+  margin: 4rem;
+}
+#illus-text h2 {
+  font-size: 60px;
+  font-weight: 600;
+  color: #4d4d4d;
+  margin-bottom: 5px;
+}
+#illus-text h3 {
+  font-size: 60px;
+  font-weight: 600;
+  color: #4caf4f;
+  margin-bottom: 1rem;
+}
+#illus-text p {
+  font-size: 16px;
+  color: #717171;
+  font-weight: 400;
+}
+#illus-img {
+  margin-right: 2rem;
+  height: 407px;
+  width: 391px;
+}
+.OurClients {
+  margin: 2rem 0 2rem 0;
+  text-align: center;
+}
+#major {
+  font-size: 35px;
+  color: #4d4d4d;
+  font-weight: 600;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+#fortune {
+  font-size: 14px;
+  font-weight: 400;
+  color: #717171;
+  padding-bottom: 10px;
+}
+.logos img {
+  margin-left: 45px;
+  padding: 20px;
+}
+
+#manage {
+  text-align: center;
+}
+#manage h3 {
+  font-size: 35px;
+  font-weight: 600;
+  color: #4d4d4d;
+  margin-bottom: 10px;
+}
+#manage p {
+  color: #717171;
+  font-size: 16px;
+  padding-bottom: 20px;
+}
+
+.membership {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  gap: 100px;
+  margin-top: 10px;
+  align-items: center;
+}
+.membership div {
+  background: white;
+  border-radius: 7px;
+  padding: 20px 10px;
+  margin: 0 10px;
+  text-align: center;
+}
+.membership-big {
+  font-size: 26px;
+  padding-top: 10px;
+  color: #4d4d4d;
+  font-weight: 700;
+}
+.membership-text {
+  font-size: 14px;
+  padding-top: 10px;
+  color: #717171;
+}
+.unseen {
+  display: flex;
+  justify-items: center;
+  margin: 0 50px;
+  padding: 40px 0;
+}
+#Frame35 {
+  margin-left: 4rem;
+}
+#threeyears {
+  text-align: justify;
+  width: 70%;
+}
+#threeyears h3 {
+  font-size: 35px;
+  font-weight: 600;
+  color: #4d4d4d;
+}
+#threeyears p {
+  font-size: 14px;
+  width: 73%;
+  font-weight: 400;
+  line-height: 1.3;
+  padding: 10px 0;
+  color: #717171;
+}
+.border {
+  margin: 0.5rem;
+}
+.local {
+  width: 50%;
+  line-height: 1.2;
+}
+.local h3 {
+  font-size: 36px;
+  color: #4d4d4d;
+  font-weight: 600;
+}
+.local h4 {
+  color: #4caf4f;
+  font-size: 36px;
+  font-weight: 600;
+}
+.local p {
+  font-size: 16px;
+  color: #18191f;
+  font-weight: 400;
+}
+.flex {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.flexed {
+  justify-content: space-evenly;
+  width: 50%;
+}
+#padding {
+  padding: 4rem 8rem;
+  width: 100%;
+  background: #f5f7fa;
+}
+.margin {
+  gap: 5px;
+}
+.font {
+  font-size: 24px;
+  font-weight: 700;
+  color: #4d4d4d;
+  padding: 1px 5px;
+}
+.smallfont {
+  font-size: 16px;
+  font-weight: 400;
+  color: #717171;
+  padding: 0 5px;
+}
+.calendar {
+  padding: 0 5.5rem;
+  margin: 2rem 0;
+}
+#pana {
+  width: 80%;
+}
+.pana-text {
+  width: 70%;
+}
+.pana-text h3 {
+  font-size: 36px;
+  font-weight: 600;
+  color: #4d4d4d;
+  width: 100%;
+}
+.pana-text p {
+  text-align: justify;
+  font-size: 14px;
+  color: #717171;
+  margin-top: 10px;
+  line-height: 1.3;
+}
+.button {
+  color: white;
+  font-size: 16px;
+  background: #52de97;
+  padding: 13px 22px;
+  margin-top: 1rem;
+  border-color: transparent;
+  border-radius: 5px;
+}
+.tesla {
+  padding: 0 5.5rem;
+  margin: 2rem 0;
+  background-color: #f5f7fa;
+}
+#tesla {
+  width: 85%;
+  margin-top: 10px;
+}
+.tesla-text {
+  width: 70%;
+}
+#digni {
+  font-size: 16px;
+  font-weight: 500;
+  color: #717171;
+  text-align: justify;
+  margin-top: 10px;
+  line-height: 1.3;
+}
+.tesla-text h3 {
+  font-size: 20px;
+  color: #4caf4f;
+  font-weight: 600px;
+  margin: 10px 0;
+}
+#British {
+  margin-top: 10px;
+  line-height: 1.3;
+  font-weight: 600;
+  font-size: 16px;
+  color: #89939e;
+  margin: 5px 0;
+}
+.tesla-text div {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.teslaimg img {
+  width: 5%;
+}
+#meet {
+  align-items: flex-end;
+  justify-content: flex-end;
+  color: #4caf4f;
+}
+#right {
+  align-items: flex-end;
+  width: 10%;
+}
+
+.caring {
+  text-align: center;
+  margin: auto;
+  width: 80%;
+  padding: 20px;
+}
+.caring h3 {
+  font-size: 40px;
+  padding-bottom: 10px;
+  color: #4d4d4d;
+  font-weight: 600;
+}
+.caring p {
+  margin: auto;
+  width: 60%;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.3;
+  color: #717171;
+}
+.bgimgs {
+  padding: 10px 50px;
+}
+.bgimgs img {
+  width: 32%;
+}
+.frame16 {
+  text-align: center;
+  width: 100%;
+  margin-top: 40px;
+  padding-bottom: 40px;
+  background: #f5f7fa;
+}
+.frame16 div {
+  width: 70%;
+
+  margin: auto;
+}
+.frame16 p {
+  font-size: 64px;
+  font-weight: bold;
+  padding: 10px 0;
+  color: #4d4d4d;
+}
+.footerbody {
+  background-color: #263238;
+}
+.marg {
+  margin: 4rem;
+}
+.footer {
+  padding: 10px;
+}
+.footer img {
+  margin: 10px 0;
+}
+.footer p {
+  color: #f5f7fa;
+  font-size: 14px;
+  padding: 10px 0;
+}
+.helpdesk {
+  display: flex;
+  flex-direction: row;
+  width: 60%;
+  justify-content: space-between;
+}
+.helpdesk h4 {
+  margin: 18px 0;
+  color: #ffffff;
+  font-size: 20px;
+}
+.helpdesk p {
+  color: #f5f7fa;
+  font-size: 14px;
+  line-height: 20px;
+  padding: 5px;
+}
+@media screen and (max-width: 700px) {
+  body {
+    background: #4caf4f;
+  }
+  nav div a {
+    display: none;
+  }
+  #signup {
+    display: none;
+  }
+  #icon-menu {
+    display: flex;
+  }
+  .Illustration {
+    display: flex;
+    align-items: center;
+    margin-left: -1.5rem;
+  }
+
+  #illus-text h2 {
+    font-size: 35px;
+    width: 100%;
+  }
+  #illus-text h3 {
+    font-size: 35px;
+  }
+  #illus-text p {
+    font-size: 13px;
+  }
+  #illus-img {
+    display: none;
+  }
+  .button {
+    font-size: 10px;
+    padding: 10px;
+  }
+
+  #ourclients {
+    font-size: 40px;
+  }
+  #fortune {
+    font-size: 13px;
+  }
+  .logos {
+    display: flex;
+    flex-direction: row;
+  }
+  .logos img {
+    width: 4%;
+    flex-wrap: wrap;
+    padding: 0;
+  }
+
+  #manage h3 {
+    font-size: 33px;
+  }
+  #manage p {
+    font-size: 13px;
+  }
+  .membership {
+    display: flex;
+    flex-direction: column;
+  }
+  .membership div {
+    padding: 20px;
+    width: 50%;
+  }
+  .membership-big {
+    font-size: 25px;
+  }
+  .membership-text {
+    font-size: 20px;
+  }
+  .unseen {
+    display: flex;
+    align-items: center;
+  }
+  #Frame35 {
+    width: 50%;
+    height: 100%;
+    margin-right: 20px;
+    margin-left: -1rem;
+  }
+  br {
+    display: none;
+  }
+  #threeyears h3 {
+    font-size: 25px;
+    text-align: justify;
+    margin-left: 0.1rem;
+    width: 100%;
+  }
+  #threeyears p {
+    font-size: 10px;
+    margin-left: 1rem;
+  }
+  .local {
+    margin-left: -5rem;
+    width: 70%;
+  }
+  .local h3 {
+    font-size: 28px;
+  }
+  .local h4 {
+    font-size: 28px;
+  }
+  .local p {
+    font-size: 14px;
+  }
+  .icon-width {
+    display: flex;
+    flex-direction: column;
+  }
+  .margin img {
+    width: 30%;
+  }
+  .margin p {
+    font-size: 12px;
+    text-align: justify;
+  }
+
+  .pana {
+    width: 90%;
+    height: 100%;
+    margin-right: 20px;
+    margin-left: -2rem;
+  }
+  .pana-text h3 {
+    font-size: 20px;
+
+    text-align: justify;
+  }
+  .pana-text p {
+    font-size: 10px;
+    line-height: 1.5;
+  }
+  #tesla {
+    width: 90%;
+    height: 100%;
+    margin-right: 20px;
+  }
+  #digni {
+    font-size: 8px;
+    margin: -0.1rem 0;
+  }
+  .tesla-text {
+    margin-top: 5px;
+  }
+  .tesla-text h3 {
+    font-size: 20px;
+    margin: -0.1rem;
+  }
+  #British {
+    font-size: 10px;
+    margin: -0.1rem;
+  }
+  .tesla-text div {
+    margin-top: -0.1rem;
+  }
+  .teslaimg {
+    margin-top: -0.1rem;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .teslaimg img {
+    width: 12%;
+  }
+  .caring {
+    width: 69%;
+  }
+  .caring h3 {
+    font-size: 25px;
+  }
+  .caring p {
+    font-size: 10px;
+  }
+  .frame16 div p {
+    font-size: 25px;
+  }
+  .frame16 div .button {
+    margin-top: -0.2rem;
+    text-align: center;
+  }
+
+  .marg {
+    display: flex;
+    margin-top: -0.1rem;
+    flex-direction: column;
+  }
+  .footer {
+    width: 80%;
+    text-align: center;
+  }
+  .footer p {
+    font-size: 17px;
+  }
+  .footer div img {
+    width: 12%;
+  }
+  .helpdesk {
+    width: 100%;
+  }
+
+  .helpdesk h4 {
+    font-size: 15px;
+  }
+  .helpdesk p {
+    font-size: 12px;
+    flex-wrap: wrap;
+  }
+}
+#email {
+  padding: 10px;
+  font-size: 14px;
+}
