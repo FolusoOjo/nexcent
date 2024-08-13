@@ -341,10 +341,13 @@ a {
   color: #4d4d4d;
 }
 .footerbody {
+  align-items: center;
+  height: 45vh;
   background-color: #263238;
 }
 .marg {
   margin: 4rem;
+  padding-top: 2rem;
 }
 .footer {
   padding: 10px;
@@ -396,15 +399,21 @@ a {
   #illus-text h2 {
     font-size: 35px;
     width: 100%;
+    text-align: center;
   }
   #illus-text h3 {
+    text-align: center;
     font-size: 35px;
   }
   #illus-text p {
-    font-size: 13px;
+    font-size: 17px;
+    text-align: center;
   }
   #illus-img {
     display: none;
+  }
+  #illus-text div {
+    text-align: center;
   }
   .button {
     font-size: 10px;
@@ -550,6 +559,15 @@ a {
   .caring p {
     font-size: 10px;
   }
+  .bgimgs {
+    display: flex;
+    flex-direction: column;
+  }
+  .bgimgs img {
+    width: 80%;
+
+    margin-bottom: 13px;
+  }
   .frame16 div p {
     font-size: 25px;
   }
@@ -568,15 +586,27 @@ a {
     text-align: center;
   }
   .footer p {
-    font-size: 17px;
+    font-size: 25px;
   }
   .footer div img {
     width: 12%;
   }
   .helpdesk {
     width: 100%;
-  }
 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .help h4 {
+    font-size: 55px;
+  }
+  .help {
+    margin: 10px 0;
+    width: 50%;
+    text-align: center;
+  }
   .helpdesk h4 {
     font-size: 15px;
   }
@@ -588,4 +618,5 @@ a {
 #email {
   padding: 10px;
   font-size: 14px;
+  width: 90%;
 }
